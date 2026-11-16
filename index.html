@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ユウキの自己紹介ページ</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+      line-height: 1.8;
+      color: #222222;
+      background-color: #f4f7fb;
+    }
+
+    /* ヘッダー・ページ内メニュー */
+    header {
+      background-color: #1b365d;
+      color: #ffffff;
+      padding: 2.5rem 1.5rem 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 0.95rem;
+      color: #d9e6f2;
+    }
+
+    nav {
+      background-color: #274c77;
+      padding: 0.75rem 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 0.95rem;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      transition: background-color 0.2s;
+    }
+
+    nav a:hover {
+      background-color: #3a6ea5;
+    }
+
+    /* メインコンテンツ */
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1.25rem;
+    }
+
+    section {
+      background-color: #ffffff;
+      border-radius: 8px;
+      padding: 2rem;
+      margin-bottom: 1.75rem;
+      box-shadow: 0 2px 6px rgba(27, 54, 93, 0.08);
+      border-top: 4px solid #3a6ea5;
+    }
+
+    h2 {
+      color: #1b365d;
+      font-size: 1.35rem;
+      margin-bottom: 1rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 2px solid #e1ecf7;
+    }
+
+    p {
+      margin-bottom: 0.75rem;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* 公式サイトリンク一覧 */
+    .link-list {
+      list-style: none;
+      margin-top: 0.5rem;
+    }
+
+    .link-list li {
+      margin-bottom: 0.6rem;
+    }
+
+    .link-list a {
+      display: inline-block;
+      color: #1b365d;
+      background-color: #e8f1fa;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.2s, color 0.2s;
+    }
+
+    .link-list a:hover {
+      background-color: #1b365d;
+      color: #ffffff;
+    }
+
+    /* フッター */
+    footer {
+      text-align: center;
+      padding: 1.5rem 1rem 2.5rem;
+      color: #555555;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ページのタイトル・表示名 -->
+  <header>
+    <h1>ユウキの自己紹介ページ</h1>
+    <p>同じ授業のみなさん、よろしくお願いします！</p>
+  </header>
+
+  <!-- ページ内メニュー -->
+  <nav aria-label="ページ内メニュー">
+    <ul>
+      <li><a href="#about">自己紹介</a></li>
+      <li><a href="#learning">学んでいること</a></li>
+      <li><a href="#goal">今後の目標</a></li>
+      <li><a href="#links">公式サイトリンク</a></li>
+    </ul>
+  </nav>
+
+  <!-- メインコンテンツ -->
+  <main>
+    <!-- 自己紹介セクション -->
+    <section id="about">
+      <h2>自己紹介</h2>
+      <p>はじめまして、大学1年生のユウキです。</p>
+      <p>休日はカフェ巡りや音楽鑑賞をして過ごすのが好きです。最近はカメラで日常の風景を撮ることにもハマっています。同じ趣味や関心がある人がいたら、ぜひ気軽に声をかけてください！</p>
+    </section>
+
+    <!-- 学んでいることセクション -->
+    <section id="learning">
+      <h2>学んでいること</h2>
+      <p>現在は大学の授業を中心に、プログラミングの基礎やWebページ制作（HTML・CSS）、データ分析の仕組みについて学んでいます。</p>
+      <p>まずは基礎をしっかり身につけて、見やすく分かりやすいWebサイトを作れるようになることを目指しています。</p>
+    </section>
+
+    <!-- 今後の目標セクション -->
+    <section id="goal">
+      <h2>今後の目標</h2>
+      <p>まずはこの授業で、自分らしい自己紹介Webサイトをしっかりと完成させることが目標です。</p>
+      <p>将来的には、大学で学んだITスキルやプログラミングの知識を活かして、日常をちょっと便利にするアプリやツールを自作できるようになりたいです。</p>
+    </section>
+
+    <!-- 公式サイトへのリンクセクション -->
+    <section id="links">
+      <h2>公式サイトへのリンク</h2>
+      <p>通っている大学や、日々の学習でよく参考にしている公式サイトのリンクです。</p>
+      <ul class="link-list">
+        <li><a href="https://www.example.ac.jp/" target="_blank" rel="noopener noreferrer">〇〇大学 公式サイト</a></li>
+        <li><a href="https://developer.mozilla.org/ja/" target="_blank" rel="noopener noreferrer">MDN Web Docs（Web制作の学習リファレンス）</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- フッター -->
+  <footer>
+    <p>&copy; 2026 ユウキ</p>
+  </footer>
+
+</body>
+</html>
